@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 public class KeywordController {
 
     private static final List<String> PREDEFINED_KEYWORDS = List.of(
-            "Elektronika", "Moda", "Książki", "Sport", "Dom", "Kultura","Biżuteria", "Książki", "Smartfony", "Technologia",
-            "Motoryzacja", "Zdrowie", "Uroda", "Dzieci", "Gry", "Turystyka", "Ogrodnictwo", "Obuwie", "Artykuły AGD", "Akcesoria"
+            "Electronics", "Fashion", "Books", "Sports", "Home", "Culture", "Jewelry", "Books", "Smartphones", "Technology",
+            "Automotive", "Health", "Beauty", "Children", "Games", "Tourism", "Gardening", "Footwear", "Household Appliances", "Accessories"
     );
 
     @GetMapping
